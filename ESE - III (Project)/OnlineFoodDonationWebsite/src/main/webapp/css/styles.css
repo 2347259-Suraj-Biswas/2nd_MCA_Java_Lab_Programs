@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 1em 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.login-button {
+    margin-top: 10px;
+}
+
+.login-button a {
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.login-button a:hover {
+    background-color: #27ae60;
+}
+
+.hero {
+    background-image:url('/OnlineFoodDonationWebsite/images/donate.jpg');/* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 10em 0;
+    text-align: center;
+}
+
+.hero-content {
+    margin: 0 auto;
+}
+
+.hero-content h2 {
+    color: rgb(255, 255, 255);
+    font-family:  monospace;
+}
+
+.hero-content > h2 {
+    font-size: 3em;
+}
+
+
+.cta-button { 
+    display: inline-block;
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.cta-button:hover {
+    background-color: #c0392b;
+}
+
+.main-content {
+    padding: 2em 0;
+}
+
+.donation-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
